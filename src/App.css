@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.search-input {
+  max-width: 200px; 
+  margin-left: auto; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: darkgreen;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-cover-block {
+  background-image: url('https://media.wired.com/photos/5d8aab8bef84070009028d31/4:3/w_2132,h_1599,c_limit/Plant-Music-1162975190.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 30rem; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-text {
+  text-shadow: 2px 2px 4px #000;
+}
+
+.pagination {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination li {
+  margin-right: 10px;
+}
+
+.pagination li a {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pagination li a:hover {
+  background-color: #eee;
+}
+
+.product-img {
+  width: 40%;
+  object-fit: cover;
+  margin-bottom: 3em;
+}
+
+.custom-divider {
+  margin-top: 2em;
+  height: 3px;
+  background-color: rgb(80, 80, 80);
+  border: none;
 }
